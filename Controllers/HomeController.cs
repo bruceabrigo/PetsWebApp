@@ -22,6 +22,11 @@ namespace PetsWebApp.Controllers
         {
             return View();
         }
+        
+        public IActionResult SomeWords()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
